@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choudhary Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+    }
+    .left{
+        display: inline-block;
+        border: 0px solid red;
+        color: white;
+        margin: 10px;
+    }
+    .left img{
+        width: 81px;
+        filter: invert(100);
+    }
+    left div{
+        text-align: center;
+    }
+    .mid{
+        display: block;
+        border: 0px solid green;
+        color: rgb(255, 255, 255);
+        width: 33%;
+        margin:-66px auto;
+        cursor: pointer;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        padding: 10px;
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+        color: grey;
+    }
+    .right{
+        position: absolute;
+        right: 32px;
+        top: 0px;
+        display: inline-block;
+        border: 0px solid yellow;
+        color: rgb(252, 252, 252);
+        margin: 10px;
+    }
+    .btn {
+        border-radius: 6px;
+        color: rgb(255, 255, 255);
+        background-color: black;
+        margin: 13px 1px;
+    }
+    .container{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 9px;
+    padding: 22px 100px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    margin: 143px 96px;
+    width: 269px;
+    }
+    .formgrp input{
+        margin: 1px;
+        text-align: center;
+        border-radius: 9px;
+    }
+    .container button{
+        text-align: center;
+        width: 176px;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/lg.png" alt="">
+            <div>Harry fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#"></a>Home</li>
+                <li><a href="#"></a>About Us</li>
+                <li><a href="#"></a>Fitness</li>
+                <li><a href="#"></a>Contact Us</li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Email us</button>
+            <button class="btn">Call us now</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join for Best Offer</h1>
+        <form action="" class="unaction php"></form>
+        <div class="formgrp">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="formgrp">
+            <input type="number" name="" placeholder="Enter your Age">
+        </div>
+        <div class="formgrp">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+        <div class="formgrp">
+            <input type="text" name="" placeholder="Enter your emmail">
+        </div>
+        <div class="formgrp">
+            <input type="number" name="" placeholder="Enter your number">
+        </div>
+        <button class="btn">
+            Submit now
+        </button>
+    </div>
+</body>
+</html>
